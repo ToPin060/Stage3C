@@ -1,0 +1,40 @@
+________________________________________________________________________________________________________________________
+COMMANDES DANS LA CONSOLE : GIT                                      													|
+________________________________________________________________________________________________________________________|
+
+	# Vérification du status 
+
+		git status
+
+	# Préparation des fichiers qui vont être commit
+
+		git add "fichier.extension"
+		git add -A
+
+	# Faire le commit
+
+		git commit -m "msg"
+		
+		# git commit -m "Initialisation du Projet [v0.0]"
+		# git commit -m "Initialisation Django + SQLite [v0.1]"
+
+	# Référer un dépôt distant 
+
+		git remote add origin adresse
+
+		# git remote add origin https://github.com/ToPin060/Stage3C.git
+
+	# Synchronisation avec le cloud ( GitHub )
+
+		git push origin master
+
+	# Vérification entre le cloud et le local ( ?? )
+
+		git fetch
+
+	# Importation du distant sur le local
+
+		git pull origin master
+
+________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________|

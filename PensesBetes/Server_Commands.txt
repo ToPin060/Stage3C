@@ -1,0 +1,44 @@
+________________________________________________________________________________________________________________________
+COMMANDES DANS LA CONSOLE : DJANGO                                      						|
+________________________________________________________________________________________________________________________|
+
+	# Chemin vers manage.py ( programme principal )
+
+		cd Desktop/Stage3C/Serveur
+
+
+	# Création d'un projet django ( dossier courant )
+
+		django-admin startproject "projectname"
+
+
+		# django-admin startproject "Serveur"
+
+
+	# Lancer le serveur django ( dossier courant )
+
+		python manage.py runserver
+
+
+	# Faire les migrations ( ?? )
+
+		python manage.py migrate
+
+
+	# Créer un "Super User"
+
+		python manage.py createsuperuser
+		
+		# Sequence :
+			# lupus
+			# unreachable@lupus.com
+			# @unum060
+
+	# Créer une application
+
+		python manage.py startapp "nomapp"
+
+		# python manage.py startapp ""
+
+________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________|
