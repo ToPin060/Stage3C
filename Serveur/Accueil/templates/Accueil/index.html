@@ -9,6 +9,7 @@
 
 {% block preinscription %}
     <form id="test" role="form">
+        <!-- ENFANT-->
         <div class="row">
             <div class="col">
                 <h3>ENFANT</h3>
@@ -17,14 +18,141 @@
         </div>
         <div class="row">
             <div class="col">
-                <label for="NomEnfant" class="form-label">NOM</label>
-                <input type="email" class="form-control" id="NomEnfant">
+                <label for="NomEnfant" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="NomEnfant">
             </div>
             <div class="col">
                 <label for="PrenomEnfant" class="form-label">Prénom</label>
-                <input type="email" class="form-control" id="PrenomEnfant">
+                <input type="text" class="form-control" id="PrenomEnfant">
             </div>
         </div>
-        
+        <br>
+
+        <!-- MERE -->
+        <div class="row">
+            <div class="col">
+                <h3>MERE</h3>
+                <HR>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="NomMere" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="NomMere">
+            </div>
+            <div class="col">
+                <label for="PrenomMere" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="PrenomMere">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <label for="ProMere" class="form-label">Profession</label>
+                <input type="text" class="form-control" id="ProMere">
+            </div>
+            <div class="col">
+                <label for="LieuProMere" class="form-label">Lieu de travail</label>
+                <input type="text" class="form-control" id="LieuProMere">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <label class="form-label">Téléphone :</label>
+            </div>
+            <div class="col">
+                <label for="NumDomMere" class="form-label">Domicile</label>
+                <input type="tel" class="form-control" id="NumDomMere">
+            </div>
+            <br>
+            <div class="col">
+                <label for="NumProMere" class="form-label">Professionel</label>
+                <input type="tel" class="form-control" id="NumProMere">
+            </div>
+            <br>
+            <div class="col">
+                <label for="NumPorMere" class="form-label">Portable</label>
+                <input type="tel" class="form-control" id="NumPorMere">
+            </div>
+        </div>
+        <br>
+
+        <!-- PERE -->
+        <div class="row">
+            <div class="col">
+                <h3>PERE</h3>
+                <HR>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="NomPere" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="NomPere">
+            </div>
+            <div class="col">
+                <label for="PrenomPere" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="PrenomPere">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <label for="ProPere" class="form-label">Profession</label>
+                <input type="text" class="form-control" id="ProPere">
+            </div>
+            <div class="col">
+                <label for="LieuProPere" class="form-label">Lieu de travail</label>
+                <input type="text" class="form-control" id="LieuProPere">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <label class="form-label">Téléphone :</label>
+            </div>
+            <div class="col">
+                <label for="NumDomPere" class="form-label">Domicile</label>
+                <input type="tel" class="form-control" id="NumDomPere">
+            </div>
+            <br>
+            <div class="col">
+                <label for="NumProPere" class="form-label">Professionel</label>
+                <input type="tel" class="form-control" id="NumProPere">
+            </div>
+            <br>
+            <div class="col">
+                <label for="NumPorPere" class="form-label">Portable</label>
+                <input type="tel" class="form-control" id="NumPorPere">
+            </div>
+        </div>
+        <br>
+
+        <!--RENSEIGNEMENT COMPLEMENTAIRES-->
+        <div class="row">
+            <div class="col">
+                <h3>RENSEIGNEMENT COMPLEMENTAIRES</h3>
+                <HR>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <label class="form-label">Organisme :</label>
+            </div>
+            <div class="col">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="CAF" value="option1">
+                    <label class="form-check-label" for="CAF">C.A.F</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MSA" value="option2">
+                    <label class="form-check-label" for="MAS">M.S.A</label>
+                </div>
+            </div>
+            <div class="col input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Autre :</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" id="OrgAutre">
+            </div>
+        </div>
     </form>
-{% endblock preinscription %}
+{% endblock preinscription %} 
