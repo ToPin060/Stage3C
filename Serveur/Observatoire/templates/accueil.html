@@ -1,0 +1,24 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Accueil</title>
+
+    {% block imports %}{% endblock imports %}
+
+</head>
+
+<body>
+
+    <form method="POST" class="form">{% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Valider</button>
+    </form>
+
+</body>
+
+</html>

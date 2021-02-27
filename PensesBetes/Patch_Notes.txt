@@ -12,12 +12,19 @@ ________________________________________________________________________________
 
     [v0.2]
 
-        # Création d'un App "Accueil"
+        # Création d'unz App "Accueil"
         # Mise en place de arborescence d'"Accueil"
         # Initialisation d'un formulaire ( pour la préinscription )
 
     [v0.3]
 
         # Changement du formulaire
+
+    [v0.4]
+
+        # Création d'une App "Observatoire"
+        # Mise en place d'arborescence d'"Observatoire"
+        # Initialisation de son index ( Appels BD + affichage )
+        
 ________________________________________________________________________________________________________________________
 ________________________________________________________________________________________________________________________|
