@@ -6,4 +6,4 @@ class PreInscription(forms.ModelForm):
 
     class Meta:
         model = Enfant
-        fields = ('nom','prenom',)
+        fields = ('nom','prenom', 'datenaiss', 'sexe', 'nbjours', 'jdlsi')
